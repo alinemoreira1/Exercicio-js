@@ -21,6 +21,14 @@
     transition: all 0.5s; 
 }
 
+
+
+
+
+
+
+
+/* GRID DO JOGO */
 .a1{
     grid-area: a1;
     border: solid;
@@ -75,3 +83,4 @@
     border: solid;
     cursor: pointer;
 }
+/* GRID DO JOGO */

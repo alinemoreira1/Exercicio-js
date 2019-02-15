@@ -1,0 +1,81 @@
+.grid {
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 130px 130px 130px;
+    grid-template-areas: 
+    "a1 b1 c1"
+    "a2 b2 c2"
+    "a3 b3 c3";
+    justify-content: center;
+}
+
+.x {
+    display: flex;
+}
+
+.o {
+    display: flex;
+}
+
+.xo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: sans-serif;
+}
+
+.a1{
+    grid-area: a1;
+    border: solid;
+    cursor: pointer;
+}
+
+
+.b1{
+    grid-area: b1;
+    border: solid;
+    cursor: pointer;
+}
+
+.c1{
+    grid-area: c1;
+    border: solid;
+    cursor: pointer;
+}
+
+.a2{
+    grid-area: a2;
+    border: solid;
+    cursor: pointer;
+}
+
+.b2{
+    grid-area: b2;
+    border: solid;
+    cursor: pointer;
+}
+
+.c2{
+    grid-area: c2;
+    border: solid;
+    cursor: pointer;
+}
+
+.a3{
+    grid-area: a3;
+    border: solid;
+    cursor: pointer;
+}
+
+.b3{
+    grid-area: b3;
+    border: solid;
+    cursor: pointer;
+}
+
+.c3{
+    grid-area: c3;
+    border: solid;
+    cursor: pointer;
+}

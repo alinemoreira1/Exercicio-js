@@ -9,20 +9,16 @@
     justify-content: center;
 }
 
-.x {
-    display: flex;
-}
-
-.o {
-    display: flex;
-}
-
 .xo {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 90px;
     font-family: sans-serif;
+}
+
+.x { 
+    transition: all 0.5s; 
 }
 
 .a1{

@@ -1,3 +1,30 @@
+body {
+    background-color: antiquewhite;
+    border: gray;
+    margin: 0%;
+}
+
+.botao {
+    background-color: beige;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 20pt;
+    height: 70px;
+    opacity: 0.8;
+    transition: 0.3s;
+    width: 200px;
+}
+
+.botao:hover {
+    background-color: chocolate;
+    color: lightgoldenrodyellow;
+    opacity: 1;
+}
+
+
+
 .grid {
     display: grid;
     grid-template-columns: 130px 130px 130px;
@@ -9,78 +36,138 @@
     justify-content: center;
 }
 
-.xo {
+.header {
+    -webkit-text-stroke: 3px maroon;
+    cursor: default;
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 10px;
+    transition: 0.1s;
+}
+
+.header:hover {
+    -webkit-text-stroke: 3px black;
+}
+
+main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 90px 90px 0 90px;
+}
+
+.obs {
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+.boxxo {
+    display: flex;
+}
+
+.xo {
     align-items: center;
+    display: flex;
+    flex-direction: column;
     font-size: 90px;
     font-family: sans-serif;
+    justify-content: center;
 }
-
-.x { 
-    transition: all 0.5s; 
-}
-
-
-
-
-
-
 
 
 /* GRID DO JOGO */
 .a1{
-    grid-area: a1;
     border: solid;
     cursor: pointer;
+    grid-area: a1;
+    transition: 0.2s;
 }
 
 
 .b1{
-    grid-area: b1;
     border: solid;
     cursor: pointer;
+    grid-area: b1;
+    transition: 0.2s;
 }
 
 .c1{
-    grid-area: c1;
     border: solid;
     cursor: pointer;
+    grid-area: c1;
+    transition: 0.2s;
 }
 
 .a2{
-    grid-area: a2;
     border: solid;
     cursor: pointer;
+    grid-area: a2;
+    transition: 0.2s;
 }
 
 .b2{
-    grid-area: b2;
     border: solid;
     cursor: pointer;
+    grid-area: b2;
+    transition: 0.2s;
 }
 
 .c2{
-    grid-area: c2;
     border: solid;
     cursor: pointer;
+    grid-area: c2;
+    transition: 0.2s;
 }
 
 .a3{
-    grid-area: a3;
     border: solid;
     cursor: pointer;
+    grid-area: a3;
+    transition: 0.2s;
 }
 
 .b3{
-    grid-area: b3;
     border: solid;
     cursor: pointer;
+    grid-area: b3;
+    transition: 0.2s;
 }
 
 .c3{
-    grid-area: c3;
     border: solid;
     cursor: pointer;
+    grid-area: c3;
+    transition: 0.2s;
 }
+
+
+.a1:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+
+.a2:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+.a3:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+.b1:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+.b2:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+.b3:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+.c1:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+.c2:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+.c3:hover{
+    background-color: rgba(250, 142, 54, 0.76);
+}
+
 /* GRID DO JOGO */

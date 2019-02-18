@@ -8,34 +8,43 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"> </script>
     <title>Jogo da velha </title>
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/pixel-perfect-at-16px-volume-3-1/16/2148-512.png">
 </head>
 
 <body>
-    <header>
-        <h1>Jogo da Velha</h1>
-    </header>
-
-    <div class="grid">
-        <div class="a1 xo"></div>
-        <div class="b1 xo"></div>
-        <div class="c1 xo"></div>
-        <div class="a2 xo"></div>
-        <div class="b2 xo"></div>
-        <div class="c2 xo"></div>
-        <div class="a3 xo"></div>
-        <div class="b3 xo"></div>
-        <div class="c3 xo"></div>
-    </div>
-
-    <div class="xo">
-        <div class="x">
-            <p>X</p>
-        </div>
     
-        <div class="o">
-            <p>O</p>
+    <main>
+        <div class="grid">
+            <div class="a1 xo"></div>
+            <div class="b1 xo"></div>
+            <div class="c1 xo"></div>
+            <div class="a2 xo"></div>
+            <div class="b2 xo"></div>
+            <div class="c2 xo"></div>
+            <div class="a3 xo"></div>
+            <div class="b3 xo"></div>
+            <div class="c3 xo"></div>
         </div>
-    </div>
+        
+        <div class="xo">
+            <div class="header">
+                <div>Jogo da Velha</div>
+            </div>
+                <div class="boxxo">
+                    <div class="x">
+                        <p></p>
+                    </div>
+                
+                    <div class="o">
+                        <p></p>
+                    </div>
+                </div>
+                <p class="obs">Obs: Começa com x</p>
+                
+                <button class="botao" onclick="window.location.reload()">play again</button>
+            </div>
+    </main>
+
 
 </body>
 
